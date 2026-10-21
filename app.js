@@ -18,6 +18,7 @@ mongoose.connect(process.env.MONGODB_URI)
     console.error('No se pudo conectar con MongoDB:', err.message);
     process.exit(1);
   });
+// hasta acá
 
 if (process.env.NODE_ENV !== 'test') app.use(logger('dev'));
 app.use(express.json());
