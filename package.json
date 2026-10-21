@@ -17,6 +17,7 @@
     "debug": "~2.6.9",
     "express": "^4.22.3",
     "mongoose": "^9.11.1",
+    "mongose": "^0.0.2-security",
     "morgan": "^1.12.1"
   },
   "devDependencies": {
